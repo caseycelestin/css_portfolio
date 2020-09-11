@@ -1,0 +1,91 @@
+:root {
+	/* CSS HEX */
+	--prussian-blue: #00356bff;
+	--fulvous: #e98a15ff;
+	--big-dip-oruby: #9c3848ff;
+	--turquoise: #41ead4ff;
+	--baby-powder: #fdfffcff;
+
+	/* https://coolors.co/00356b-e98a15-9c3848-41ead4-fdfffc*/
+}
+
+/* Global Styles
+----------------------------*/
+body {
+	color: var(--baby-powder);
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	line-height: 1.5;
+}
+img {
+	width: 300px;
+}
+a {
+	color: var(--fulvous);
+}
+a:hover {
+	text-decoration: none;
+}
+h1 {
+	font-size: 100px;
+	letter-spacing: 0.1em;
+}
+h2 {
+	font-size: 45px;
+	letter-spacing: 0.05em;
+}
+h1, h2 {
+	font-family: 'Shadows Into Light', cursive;
+	font-weight: 400;
+	margin: 0;
+}
+.content-wrap {
+	width: 800px;
+	margin: 0 auto;
+	padding: 60px 0;
+}
+
+/* Profile
+----------------------------*/
+header {
+	background-color: var(--prussian-blue);
+}
+/* Projects
+----------------------------*/
+.projects {
+	background-color: var(--fulvous);
+}
+.projects a {
+	color: var(--prussian-blue);
+}
+.projects .btn {
+	color: var(--baby-powder);
+	background-color: var(--big-dip-oruby);
+	text-decoration: none;
+	padding: 8px;
+	border-radius: 4px;
+	display: inline-block;
+}
+.projects .btn:hover {
+	background-color: rgba(156, 56, 72, .8);
+}
+
+/* Work Experience
+----------------------------*/
+.work {
+	background-color: var(--big-dip-oruby);
+}
+
+/* Education
+----------------------------*/
+.education {
+	color: var(--prussian-blue);
+}
+
+/* Contact Info
+----------------------------*/
+footer {
+	background-color: var(--prussian-blue);
+}
